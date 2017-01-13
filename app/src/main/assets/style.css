@@ -78,7 +78,7 @@ object, embed { display:none; }
 
 /* Main Content */
 
-#maincontent .post {border-bottom: 1px solid #DDD; padding:5px 10px;font-size: 13px;font-family: "Microsoft YaHei","Hiragino Sans GB W3",Tahoma,Arial;}
+#maincontent .post { padding:5px 10px;font-size: 13px;font-family: "Microsoft YaHei","Hiragino Sans GB W3",Tahoma,Arial;}
 
 #maincontent hr{color: #DDD; border: none; border-bottom: 1px dashed #DEDEDE; margin-bottom: 5px;}
 
@@ -114,7 +114,7 @@ font-size: 10px;padding: 5px 10px;margin-bottom: 10px;}
 
 #maincontent a:hover {color: #DD1111;}
 
-#maincontent img {border:0 none;margin:5px 0;max-width:100%;;}
+#maincontent img {width: 100%; height: 100%; vertical-align: middle;border:0 none;margin:5px 0;max-width:100%;}
 
 #maincontent p {margin-bottom: 10px;}
 

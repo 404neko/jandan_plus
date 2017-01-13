@@ -14,7 +14,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
 
         <FrameLayout
@@ -54,7 +55,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/tv_title">
+            android:layout_above="@id/tv_title"
+            android:layout_weight="2.45">
 
             <TextView
                 android:id="@+id/tv_info"
@@ -67,17 +69,16 @@
                 android:textColor="@color/secondary_text_default_material_light"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/tv_share"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
+                android:src="@android:drawable/ic_menu_share"
+
+                android:id="@+id/tv_share"
                 android:layout_centerVertical="true"
-                android:padding="16dp"
-                android:singleLine="true"
-                android:text="分享"
-                android:textColor="@android:color/holo_orange_dark"
-                android:textSize="14sp" />
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
 
         </RelativeLayout>
     </LinearLayout>

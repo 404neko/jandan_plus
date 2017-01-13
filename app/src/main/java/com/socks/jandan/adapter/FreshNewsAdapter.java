@@ -202,7 +202,7 @@ public class FreshNewsAdapter extends RecyclerView.Adapter<FreshNewsAdapter.View
         //TextView tv_views;
         @Optional
         @InjectView(R.id.tv_share)
-        TextView tv_share;
+        ImageView tv_share;
         @InjectView(R.id.img)
         ImageView img;
         @Optional

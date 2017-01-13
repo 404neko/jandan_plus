@@ -2,6 +2,7 @@ package com.socks.jandan.ui.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -24,6 +25,8 @@ import com.victor.loading.rotate.RotateLoading;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+
+import static android.content.ContentValues.TAG;
 
 public class FreshNewsDetailFragment extends BaseFragment {
 
