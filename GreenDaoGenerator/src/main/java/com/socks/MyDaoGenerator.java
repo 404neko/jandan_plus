@@ -13,11 +13,8 @@ import de.greenrobot.daogenerator.Schema;
  */
 public class MyDaoGenerator {
 
-	//辅助文件生成的相对路径
 	public static final String DAO_PATH = "../app/src/main/java-gen";
-	//辅助文件的包名
 	public static final String PACKAGE_NAME = "com.socks.greendao";
-	//数据库的版本号
 	public static final int DATA_VERSION_CODE = 1;
 
 	public static void main(String[] args) throws Exception {
@@ -42,13 +39,13 @@ public class MyDaoGenerator {
 
 		Entity joke = schema.addEntity(tableName);
 
-		//主键id自增长
+		//inc
 		joke.addIdProperty().primaryKey().autoincrement();
 		//请求结果
 		joke.addStringProperty("result");
 		//页数
 		joke.addIntProperty("page");
-		//插入时间，暂时无用
+		//time
 		joke.addLongProperty("time");
 
 	}
