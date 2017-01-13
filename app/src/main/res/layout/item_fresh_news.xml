@@ -68,18 +68,6 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/tv_views"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="16dp"
-                android:layout_toRightOf="@id/tv_info"
-                android:singleLine="true"
-                android:text="浏览120次"
-                android:textColor="@color/secondary_text_default_material_light"
-                android:textSize="14sp" />
-
-            <TextView
                 android:id="@+id/tv_share"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

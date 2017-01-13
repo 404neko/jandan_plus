@@ -96,7 +96,7 @@ public class FreshNewsAdapter extends RecyclerView.Adapter<FreshNewsAdapter.View
         holder.tv_title.setText(freshNews.getTitle());
         holder.tv_info.setText(freshNews.getAuthor().getName() + "@" + freshNews.getTags()
                 .getTitle());
-        holder.tv_views.setText("浏览" + freshNews.getCustomFields().getViews() + "次");
+        //holder.tv_views.setText("浏览" + freshNews.getCustomFields().getViews() + "次");
 
         if (isLargeMode) {
             holder.tv_share.setOnClickListener(new View.OnClickListener() {
@@ -198,8 +198,8 @@ public class FreshNewsAdapter extends RecyclerView.Adapter<FreshNewsAdapter.View
         TextView tv_title;
         @InjectView(R.id.tv_info)
         TextView tv_info;
-        @InjectView(R.id.tv_views)
-        TextView tv_views;
+        //@InjectView(R.id.tv_views)
+        //TextView tv_views;
         @Optional
         @InjectView(R.id.tv_share)
         TextView tv_share;
